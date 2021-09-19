@@ -1,0 +1,136 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ 
+   /* margin: 2rem; */
+   
+
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 1rem;
+    
+}
+
+li a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+li a:hover{
+   background-image: -moz-linear-gradient(#cedd9a, #9198e5);
+}
+
+
+
+/*Home*/
+
+.home-main{
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
+
+.leo{
+  margin: auto auto;
+}
+
+.bästa{
+
+  margin: auto auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #812F33;
+  text-shadow: 1px 1px 2px #705E78  0 2px 1em #FEA443, 0 0 0.2em blue ;
+
+}
+.frontpic{
+  margin: auto auto;
+}
+
+
+
+
+
+/*Menyyyyyyyyyy*/
+
+.meny{
+    width: 100%;
+    height: 100%;
+display:flex;
+padding: 0;
+margin: 0;
+
+}
+
+.right{
+margin-left: 2rem; 
+   height: 100%;
+    width: 100%;
+}
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    margin-right: 6rem;
+   
+}
+.left{
+    
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*fading*/
+
+
+.fader {
+  position: relative;
+  width: 50%;
+}
+
+.map {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: 20rem;
+  
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A5AAA3;
+  margin-left: 20rem;
+}
+
+
+.text2{
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 13rem 13rem;
+
+
+}
+
+.fader:hover .overlay {
+  opacity: 1;
+}
